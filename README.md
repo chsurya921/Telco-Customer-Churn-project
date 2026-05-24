@@ -66,22 +66,30 @@ POST /predict
 {
   "gender": "Male",
   "SeniorCitizen": 0,
+  "Partner": "Yes",
+  "Dependents": "No",
   "tenure": 24,
+  "PhoneService": "Yes",
+  "MultipleLines": "No",
+  "InternetService": "DSL",
+  "OnlineSecurity": "Yes",
+  "OnlineBackup": "No",
+  "DeviceProtection": "No",
+  "TechSupport": "No",
+  "StreamingTV": "No",
+  "StreamingMovies": "No",
   "Contract": "One year",
+  "PaperlessBilling": "Yes",
+  "PaymentMethod": "Electronic check",
   "MonthlyCharges": 55.90,
-  "TotalCharges": 1340.00,
-  ...
+  "TotalCharges": 1340.00
 }
 ```
 
 ### Example Response
 ```json
-{
-  "churn_prediction": 0,
-  "churn_probability": 0.1823,
-  "risk_level": "Low",
-  "message": "Customer likely to stay."
-}
+<img width="1234" height="215" alt="Screenshot 2026-05-25 at 12 50 18 AM" src="https://github.com/user-attachments/assets/5e8d9017-6776-4a97-8d91-674035812d66" />
+
 ```
 
 ---
