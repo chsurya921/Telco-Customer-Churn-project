@@ -1,4 +1,4 @@
-<img width="1234" height="215" alt="Screenshot 2026-05-25 at 12 50 18 AM" src="https://github.com/user-attachments/assets/9620e3f8-e231-431d-ae31-c24b0a834700" />
+
 # 📡 Telco Customer Churn Prediction System
 
 A complete, production-ready machine learning system that predicts whether a telecom customer will cancel their subscription — and serves those predictions through a validated, monitored REST API.
@@ -88,12 +88,8 @@ POST /predict
 ```
 
 ### Example Response
-```json
-<img width="1000" height="215" alt="Screenshot 2026-05-25 at 12 50 18 AM" src="https://github.com/user-attachments/assets/1195513d-c56e-47d8-bd63-5ce6d92ade15" />
 
-
-```
-
+<img width="1234" height="215" alt="Screenshot 2026-05-25 at 12 50 18 AM" src="https://github.com/user-attachments/assets/9620e3f8-e231-431d-ae31-c24b0a834700" />
 ---
 
 ## 🛡️ Data Validation
