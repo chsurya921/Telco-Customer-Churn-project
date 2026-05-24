@@ -199,6 +199,24 @@ uvicorn monitoring.monitored_api:app --reload --port 8000
 docker build -t telco-churn .
 docker run -p 8000:8000 telco-churn
 ```
+### 5. Live Demo
+
+The API is deployed and live at:
+
+👉 **Base URL:** https://telco-customer-churn-project-s592.onrender.com
+
+| Page | URL |
+|------|-----|
+| 📖 Interactive API Docs | [/docs](https://telco-customer-churn-project-s592.onrender.com/docs) |
+| 📊 Monitoring Dashboard | [/dashboard](https://telco-customer-churn-project-s592.onrender.com/dashboard) |
+| ❤️ Health Check | [/health](https://telco-customer-churn-project-s592.onrender.com/health) |
+| 📡 Prometheus Metrics | [/metrics](https://telco-customer-churn-project-s592.onrender.com/metrics) |
+
+## Test the API live
+
+1. Open the [Interactive Docs](https://telco-customer-churn-project-s592.onrender.com/docs)
+2. Click **POST /predict → Try it out**
+3. Paste the sample request below and click **Execute**
 
 ### 5. Open in browser
 | URL | Description |
